@@ -1,0 +1,87 @@
+/* Reset de estilos y definición de la fuente predeterminada */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+/* Estilos del cuerpo del documento */
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	background-color: #000;
+	color: #fff;
+}
+
+/* Estilos del enlace dentro del encabezado */
+h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Estilos de la barra de navegación y del usuario */
+nav,
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+/* Estilos de los enlaces de navegación */
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Estilos del nombre de usuario */
+.username {
+	color: #fff;
+}
+
+/* Estilos del botón de cierre de sesión */
+.btn-logout {
+	border: 1px solid #fff;
+	background: none;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.btn-logout:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/* Estilos del contenedor principal */
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+/* Estilos del formulario */
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Estilos del grupo de entradas de formulario */
+.input-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px 0;
+	text-align: center;
+}
